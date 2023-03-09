@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lomake</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <table>
+                <legend>Contact information:</legend>
+                <tr>
+                    <td><label>First name:</label></td>
+                    <td><input type="text" id="fname" name="fname"></td>
+                    <td><label>Preferred contact method:</label></td>
+                </tr>
+                <tr>
+                    <td><label>Last name:</label></td>
+                    <td><input type="text" id="lname" name="lname"></td>
+                    <td><input type="checkbox">
+                        <label>Email</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Email:</label></td>
+                    <td><input type="text" id="email" name="email"></td>
+                    <td><input type="checkbox">
+                        <label>Telephone</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Telephone:</label></td>
+                    <td><input type="text" id="phone" name="phone"></td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>Feedback:</legend>
+            <form>
+                <table>
+                    <tr>
+                        <td><label>Message subject:</label></td>
+                        <td><input type="text" id="subject" name="msubject"></td>
+                        <br>
+                    </tr>
+                </table>
+
+                <textarea name="message" rows="10" cols="40"></textarea>
+                <table>
+                    <tr>
+                        <td><label>Attach a file:</label></td>
+                        <td><input type="file"></td>
+                    </tr>
+                    <tr>
+                        <td><button type="button" onclick="alert('Sent??')"> Send</button></td>
+                    </tr>
+                </table>
+            </form>
+        </fieldset>
+    </form>
+</body>
+
+</html>
