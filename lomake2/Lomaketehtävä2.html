@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lomake</title>
+    <link type="text/css" rel="stylesheet" charset="UTF-8" href="styles.css">
+</head>
+
+<body>
+    <form>
+        <fieldset class="container">
+
+            <legend>Contact information:</legend>
+
+            <div class="container">
+                <label>First name:</label>
+                <input type="text" id="fname" name="fname">
+
+                <label>Last name:</label>
+                <input type="text" id="lname" name="lname">
+
+                <label>Email:</label>
+                <input type="text" id="email" name="email">
+
+                <label>Telephone:</label>
+                <input type="text" id="phone" name="phone">
+
+
+            </div>
+
+            <div class="container">
+                <label>Preferred contact method:</label>
+
+                <div class="checkbox-container"><input type="checkbox">
+                    <label>Email</label>
+                </div>
+
+                <div class="checkbox-container"><input type="checkbox">
+                    <label>Telephone</label>
+                </div>
+
+
+            </div>
+
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Feedback:</legend>
+            <form>
+
+
+                <label>Message subject:</label>
+                <input type="text" id="subject" name="msubject">
+                <br>
+
+
+
+                <textarea name="message" rows="10" cols="40"></textarea>
+
+
+                <br>
+                <label>Attach a file:</label>
+                <input type="file">
+
+
+                <button type="button" onclick="alert('Sent??')"> Send</button>
+
+
+            </form>
+        </fieldset>
+    </form>
+</body>
+
+</html>
