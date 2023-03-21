@@ -1,0 +1,10 @@
+.col-6 {
+    border-color: rgb(16, 104, 227);
+    border-width: 3px;
+    border-style: dotted;
+}
+
+.container {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
