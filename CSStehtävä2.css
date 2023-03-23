@@ -1,0 +1,32 @@
+.allcards {
+    flex-direction: row;
+    display: flex;
+
+}
+
+main {
+    margin-top: 60px;
+    background-color: #8ec49e;
+
+}
+
+.card {
+    background-color: beige;
+    margin: 3px;
+}
+
+footer {
+    height: 50px;
+    background-color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-style: italic;
+
+}
+
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
